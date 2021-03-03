@@ -1,0 +1,113 @@
+/*CSS DOCUMENT*/
+
+div container{
+    max-width: 50em;
+    margin: auto;
+}
+
+@media screen and (min-width: 35em){
+    img{
+        max-height: 70%;
+        max-width: 70%;
+    }
+    header{
+        margin:5em 10em 0em 10em;
+    }
+}
+    
+body{
+    background-color: #F5F5F5;
+}
+header{
+    text-align: center;
+    
+}
+
+article{
+    align-content: center;
+    text-align: center
+}
+
+img {
+    width:80%; 
+    height: 80%;
+}
+
+nav ul{
+    padding: 0.5em;
+    margin-bottom: 2em;
+    max-width: auto;
+    background-color:#CD5C5C
+}
+
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    font-family: Interstate;
+    font-style: normal;
+    font-size:1em;
+    text-transform: uppercase;
+    margin: 0 1em 0 1em;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color:gray;
+}
+h1{
+    width: 35%;
+    height: 35%;
+    padding-bottom: 1em;
+    text-align: center
+}
+
+h2{
+    font-family: Interstate;
+    font-style: normal;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h3{
+    font-family: Interstate;
+    font-style: normal; 
+    font-size: 1.25em;
+    text-align: center;
+    padding: 1em 0em 0em 0em;
+    color:#CD5C5C
+}
+
+h4{
+    font-family: Interstate;
+    font-style: normal;
+    font-size:1em
+}
+
+aside{
+   text-align: center 
+}
+
+li{
+    font-family: Interstate;
+    list-style: none;
+    font-style: normal;
+    font-size:1.15em;
+    padding-bottom:1em;
+    margin-left: -1.5em
+}
+
+p{
+    font-family: Interstate;
+    font-style: normal;
+    font-size:1em;
+}
+
+footer{
+    background-color: #CD5C5C;
+}
+
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
